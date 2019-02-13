@@ -1,0 +1,101 @@
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Oswald', sans-serif;
+ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 100px 200px;
+}
+
+.colors_wrapper {
+  outline: 60px rgba(191, 191, 191, 0.12) solid;
+}
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+
+.inputs > section {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+}
+
+#color-select {
+  width: 200px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+#color-select:hover {
+  cursor: pointer;
+}
+
+.color_con {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  width: 100%;
+}
+
+#colorWell {
+  border: 2px dotted rgba(0, 0, 0, 0.46);
+  width: 100px;
+  height: 25px;
+  padding: 0px;
+  margin-left: 5px;
+}
+#colorWell:hover {
+  cursor: pointer;
+}
+
+.box_con {
+  height: 200px;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.box {
+  border: 1px solid black;
+}
+
+.color_0 {
+  border: 5px dotted rgba(0, 0, 0, 0.46);
+}
+
+#color-select {
+}
+
+.color_val {
+  font-size: 0.8em;
+  font-weight: bold;
+
+  display: grid;
+  grid-gap: 2px;
+  border: 1px solid #949494;
+}
+
+.color_val > * {
+  font-family: "Teko", sans-serif;
+  font-size: 1em;
+  letter-spacing: 1px;
+  padding: 5px;
+}
+
+.color_val :nth-child(odd) {
+  background: #dfdfdf;
+}
+
+.color_val :nth-child(even) {
+  background: #cdcccc;
+}

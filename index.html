@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Palette_Picker Magnus Vagn Jensen</title>
+    <link rel="stylesheet" href="main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto|Teko" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="colors_wrapper">
+        <section class="inputs">
+            <section class="theme_wrap">
+                <label for="color-select">Choose a color theme:</label>
+
+                <select id="color-select">
+            <option class="color_theme ct_1" value="Default">Please choose an option</option>
+            <option class="color_theme" value="Analogous">Analogous</option>
+            <option class="color_theme" value="Monochromatic">Monochromatic</option>
+            <option class="color_theme" value="Complementary">Complementary</option>
+            <option class="color_theme" value="Compound">Compound</option>
+            <option class="color_theme" value="Shades">Shades</option>
+        </select>
+
+            </section>
+
+            <section class="color_picker_wrap">
+
+                <div class="color_picker">
+
+                    <label for="colorWell">Choose a color:</label>
+                    <input type="color" value="#ff0000" id="colorWell">
+                </div>
+            </section>
+        </section>
+        <div class="color_con">
+
+            <div class="box_con">
+                <div class="box color_3"></div>
+                <div class="color_val">
+                    <div class="rgb_val_3"></div>
+                    <div class="hex_val_3"></div>
+                    <div class="hsl_val_3"></div>
+                </div>
+            </div>
+            <div class="box_con">
+                <div class="box color_1"></div>
+                <div class="color_val">
+                    <div class="rgb_val_1"></div>
+                    <div class="hex_val_1"></div>
+                    <div class="hsl_val_1"></div>
+                </div>
+            </div>
+            <div class="box_con">
+                <div class="box color_0"></div>
+                <div class="color_val">
+                    <div class="rgb_val_0"></div>
+                    <div class="hex_val_0"></div>
+                    <div class="hsl_val_0"></div>
+                </div>
+            </div>
+            <div class="box_con">
+                <div class="box color_2"></div>
+                <div class="color_val">
+                    <div class="rgb_val_2"></div>
+                    <div class="hex_val_2"></div>
+                    <div class="hsl_val_2"></div>
+                </div>
+            </div>
+            <div class="box_con">
+                <div class="box color_4"></div>
+                <div class="color_val">
+                    <div class="rgb_val_4"></div>
+                    <div class="hex_val_4"></div>
+                    <div class="hsl_val_4"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
